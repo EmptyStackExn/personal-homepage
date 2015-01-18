@@ -26,11 +26,11 @@ tags: cea lri phd
 ### Duties
 
 
-I am a co-organizer of the [Doctoral Seminar Series]() at [École Doctorale d'Informatique de Paris-Sud](https://edips.lri.fr/tiki-index.php).
+I am a co-organizer of the [Doctoral Seminar Series](https://www.lri.fr/doctorants) at [École Doctorale d'Informatique de Paris-Sud](https://edips.lri.fr/tiki-index.php).
 
 
 ### Teaching
 
 
-* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA)
+* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA) ([some assignments](files/pfa/))
 * 4è année Ingénieur - [Introduction à la compilation](https://www.lri.fr/~fv/teaching.html)

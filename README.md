@@ -5,6 +5,11 @@ Personal homepage of Hai Nguyen Van
 
 ![](img/screenshot.png)
 
+Usage
+------------
+
+Main changes are meant to be made in `_posts/2014-08-12-main.markdown`. Footers and headers in `_includes/`. Jekyll finally compiles into `_site`.
+
 License
 ------------
 

@@ -8,6 +8,7 @@
         p { line-height: 18px; }
     }
 
+/*
     .post-header {
         padding-left: 35px;
         min-height: $post-header-height;
@@ -18,12 +19,13 @@
     }
 
     .post-header--dw {
-        background-image: url(/img/watch-1.png);
+        background-image: url(../img/watch-1.png);
     }
 
     .post-header--ar {
-        background-image: url(/img/watch-2.png);
+        background-image: url(../img/watch-2.png);
     }
+*/
 
     .post-header-title {
         margin-bottom: 5px;
@@ -201,9 +203,9 @@
         float: right;
         min-height: $post-footer-location-height;
         line-height: $post-footer-location-line-height;
-        padding-right: 51px;
-        letter-spacing: 1px;
-        background: url(/img/icon-location.png) no-repeat right center transparent;
+        // padding-right: 51px;
+        // letter-spacing: 1px;
+        // background: url(../img/icon-lri.png) no-repeat right center transparent;
 
         &:hover {
             color: $link-colour;

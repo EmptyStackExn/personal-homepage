@@ -1,17 +1,20 @@
 <section class="post">
     <div class="post-header post-header--dw">
-        <a href="{{ include.post.url }}"><h3 class="post-header-title">{{ include.post.title }}</h3></a>
-        <h4 class="post-header-date"><span class="ordinal">{{ include.post.date | date: "%e" }}</span> {{ include.post.date | date: "%B &#8217;%y" }}</h4>
+        <!-- <a href="{{ include.post.url }}"><h3 class="post-header-title">{{ include.post.title }}</h3></a> -->
+        <!-- <h4 class="post-header-date"><span class="ordinal">{{ include.post.date | date: "%e" }}</span> {{ include.post.date | date: "%B &#8217;%y" }}</h4> -->
     </div>
     <div class="post-body">
         {{ include.content }}
     </div>
     <div class="post-footer">
         <ul class="post-footer-tags">
-            {% for tag in include.post.tags %}
-              <li class="post-footer-tag">#{{ tag }}</li>
-            {% endfor %}
+          <!--  
+	   {% for tag in include.post.tags %}
+          <li class="post-footer-tag">#{{ tag }}</li>
+          {% endfor %}
+	   -->
+	   <li class="post-footer-tag">Powered by <a href="http://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/rowanoulton/travelog-theme">Travelog</a></li>
         </ul>
-        <a href="https://www.google.com/maps/search/{{ include.post.location }}" target="_blank" class="post-footer-location">{{ include.post.location }}</a>
+        <a href="https://www.google.fr/maps/dir/Le+Guichet/Laboratoire+de+Recherche+en+Informatique,+B%C3%A2t+650,+Rue+Noetzlin,+91190+Gif-sur-Yvette/@48.7088564,2.1706848,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e678a46da4d41f:0x98e8cdc7ddb3480a!2m2!1d2.191621!2d48.704825!1m5!1m1!1s0x47e67f4ee0ba7d8b:0x566a06a0cd1acf1d!2m2!1d2.168259!2d48.7125!3e2?hl=fr" target="_blank" class="post-footer-location">{{ include.post.location }}</a>
     </div>
 </section>

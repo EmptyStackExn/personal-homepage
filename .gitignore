@@ -1,5 +1,9 @@
 # Jekyll
-_site
+# _site
 
 # Sass
 .sass-cache
+
+files/
+log.php
+peers.log

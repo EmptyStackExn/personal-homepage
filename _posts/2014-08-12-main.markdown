@@ -12,7 +12,7 @@ tags: cea lri phd
 * I graduated from the [Master Parisien de Recherche en Informatique](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start) at the [Université Paris Diderot](http://www.univ-paris-diderot.fr/).
 * I have been working on malware research and software verification as an Intern at [Commissariat à l'Énergie Atomique (LIST/LSL)](http://www-list.cea.fr/).
 * I am now a Doctoral Candidate in [Formal Verification](http://shemesh.larc.nasa.gov/fm/fm-why-new.html) under the supervision of [Pr Burkhart Wolff](https://www.lri.fr/~wolff/) and [Pr Frédéric Boulanger](http://wwwdi.supelec.fr/fb/) in the [VALS LRI team](http://vals.lri.fr/) at the Université Paris-Sud.
-* More specifically, I study a formalization of the [synchronous heterogeneous specification language TESL](http://wwwdi.supelec.fr/software/TESL/) in the [proof assistant Isabelle/HOL](http://isabelle.in.tum.de/).
+* More specifically, I study a way to formalize the semantics of the [synchronous heterogeneous specification language TESL](http://wwwdi.supelec.fr/software/TESL/) into the [proof assistant Isabelle/HOL](http://isabelle.in.tum.de/).
 
 
 ### Research
@@ -32,5 +32,5 @@ I am a co-organizer of the [Doctoral Seminar Series](https://www.lri.fr/doctoran
 ### Teaching
 
 
-* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA) ([some assignments](files/pfa/))
+* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA) ([some assignments](files/info311-pfa-tdtp-1415/))
 * 4è année Ingénieur - [Introduction à la compilation](https://www.lri.fr/~fv/teaching.html)

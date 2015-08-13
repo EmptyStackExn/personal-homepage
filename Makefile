@@ -6,3 +6,6 @@ delete-remote:
 
 update: all
 	rsync -avz --exclude=keepall --delete _site/ nguyen-van@zamok:/home/nguyen-van/www
+
+clean:
+	rm -fr _site

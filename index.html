@@ -2,6 +2,43 @@
 layout: default
 ---
 
+<?php
+# Using a third-party service to avoid installing GeoIP extension for PHP server
+function ip_details($IPaddress)
+{
+  $json       = file_get_contents("http://ipinfo.io/{$IPaddress}");
+  $details    = json_decode($json);
+  return $details;
+}
+
+$ip = $_SERVER['REMOTE_ADDR'];
+$host = gethostbyaddr ($_SERVER['REMOTE_ADDR']);
+$geo = ip_details ($_SERVER['REMOTE_ADDR']);
+$date = date('c');
+
+# Path to the remote server log file
+$file = "/home/nguyen-van/analytics.xml";
+
+$in_file = fopen($file, "a");
+$ptr = ftell($in_file);
+$ptr = fseek($in_file, 0, SEEK_END);
+
+
+if ($host != "mna75-4-81-56-56-178.fbx.proxad.net"){
+    fwrite($in_file,
+      "<Event>\n"
+      . "  <Time>" . $date . "</Time>\n"
+      . "  <RemoteAddr>" . $ip . "</RemoteAddr>\n"
+      . "  <RemoteHost>" . $host . "</RemoteHost>\n"
+      . "  <City>" . ($geo->city) . "</City>\n"
+      . "  <Country>" . ($geo->country) . "</Country>\n"
+      . "  <Position>" . ($geo->loc) . "</Position>\n"
+      . "  <Organization>" . ($geo->org) . "</Organization>\n"
+      . "</Event>\n");
+    fclose($in_file);
+}
+?>
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   {% include post.html post=post content=post.content %}

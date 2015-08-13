@@ -10,13 +10,15 @@ tags: cea lri phd
 
 
 * I graduated from the [Master Parisien de Recherche en Informatique](https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start) at the [Université Paris Diderot](http://www.univ-paris-diderot.fr/).
-* I have been working on malware research and software verification as an Intern at [Commissariat à l'Énergie Atomique (LIST/LSL)](http://www-list.cea.fr/).
-* I am now a Doctoral Candidate in [Formal Verification](http://shemesh.larc.nasa.gov/fm/fm-why-new.html) under the supervision of [Pr Burkhart Wolff](https://www.lri.fr/~wolff/) and [Pr Frédéric Boulanger](http://wwwdi.supelec.fr/fb/) in the [VALS LRI team](http://vals.lri.fr/) at the Université Paris-Sud.
-* More specifically, I study a way to formalize the semantics of the [synchronous heterogeneous specification language TESL](http://wwwdi.supelec.fr/software/TESL/) into the [proof assistant Isabelle/HOL](http://isabelle.in.tum.de/).
+* I have also been working on malware research and pushdown model-checking as an Intern at [Commissariat à l'Énergie Atomique (CEA LIST/LSL)](http://www-list.cea.fr/).
+* I am now a Doctoral Researcher under the supervision of [Pr Burkhart Wolff](https://www.lri.fr/~wolff/) and [Pr Frédéric Boulanger](http://wwwdi.supelec.fr/fb/) in a joint team [LRI](http://vals.lri.fr/)/[VALS](http://vals.lri.fr/)/[MODHEL](https://modhel.lri.fr/) at [Université Paris-Sud](http://www.u-psud.fr).
+* My work is focused on a [hierarchy of formal semantics](http://www.sciencedirect.com/science/article/pii/S0304397500003133) of the [synchronous heterogeneous specification language TESL](http://wwwdi.supelec.fr/software/TESL/) into the [proof assistant Isabelle/HOL](http://isabelle.in.tum.de/).
+* Please feel free to have a look at some [personal projects on GitHub](https://github.com/EmptyStackExn).
 
 
 ### Research
 
+I share the deep conviction that mathematical foundations are essential for critical software-intensive systems development and hence [formal methods](http://shemesh.larc.nasa.gov/fm/fm-why-new.html) are a cost-effective answer to the systems verification problem.
 
 * H. Nguyen Van. [Unifying syntactic model-checking verification techniques](files/14-0197-HNV-2014.pdf). Commissariat à l'Énergie Atomique, Tech. Rep. 14-0197/HNV, 2014.
 * H. Nguyen Van. [Advanced topics in malware camouflage and countermeasures](files/2013-0176-HNV-2013.pdf). Commissariat à l'Énergie Atomique, Tech. Rep. 2013-0176/HNV, 2013.
@@ -32,5 +34,5 @@ I am a co-organizer of the [Doctoral Seminar Series](https://www.lri.fr/doctoran
 ### Teaching
 
 
-* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA) ([some assignments](files/info311-pfa-tdtp-1415/))
-* 4è année Ingénieur - [Introduction à la compilation](https://www.lri.fr/~fv/teaching.html) ([TD/TP](files/app4-compilation-tdtp-1415/))
+* L3 Informatique - [Programmation fonctionnelle avancée](http://www.lri.fr/~conchon/PFA) ([lab sessions](files/info311-pfa-tdtp-1415/))
+* 4è année Ingénieur - [Introduction à la compilation](https://www.lri.fr/~fv/teaching.html) ([lab sessions](files/app4-compilation-tdtp-1415/))

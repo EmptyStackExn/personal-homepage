@@ -5,27 +5,8 @@
     }
 
     .post-body {
-        p { line-height: 18px; }
+        p { line-height: 15px; }
     }
-
-/*
-    .post-header {
-        padding-left: 35px;
-        min-height: $post-header-height;
-        background-repeat: no-repeat;
-        background-position: left center;
-        background-color: transparent;
-        margin-bottom: 15px;
-    }
-
-    .post-header--dw {
-        background-image: url(../img/watch-1.png);
-    }
-
-    .post-header--ar {
-        background-image: url(../img/watch-2.png);
-    }
-*/
 
     .post-header-title {
         margin-bottom: 5px;
@@ -114,7 +95,7 @@
         margin-top: 5px;
 
         // Paragraphs within the caption should have no margin
-        p { margin: 0; }
+        p { margin: 0px; }
 
         // Paragraphs following other paragraphs in the caption should have a top margin
         p + p { margin-top: 15px; }

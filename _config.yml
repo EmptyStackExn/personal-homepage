@@ -7,9 +7,11 @@ email: hai.nguyen-van@lri.fr
 description: "Doctoral Researcher at VALS, Laboratoire de Recherche en Informatique, Université Paris-Sud"
 baseurl: ""
 url: "http://perso.crans.org/~nguyen-van"
+instagram_username:   "emptystackexn"
 github_username:   "EmptyStackExn"
 linkedin_username: "hai-nguyen-van"
 gpgkey_username:   "2048R/7E95369D"
+
 
 # Build settings
 markdown: kramdown
